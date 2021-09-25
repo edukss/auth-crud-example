@@ -1,0 +1,127 @@
+li{
+    list-style-type: none;
+    float: left;
+    margin-right: 2em; 
+}
+
+a{
+    text-decoration:none;
+}
+
+
+nav{
+    background-color: #0d5dd6b2;
+}
+.register a{
+    color:white;
+}
+.register:hover{
+    background-color: white;
+    color:#0d6efd;
+}
+
+.register:hover a{
+    color:#0d6efd;
+}
+.login a{
+    color:white;
+}
+.login{
+    color:white;
+    border:solid;
+    border-color:transparent;
+}
+
+.login:hover{
+    background-color: #0d6efd;
+    color:white;
+}
+.panel a{
+    color: white;
+}
+.panel{
+    border:solid;
+    border-color:transparent;
+}
+
+.panel:hover{
+    background-color: #00da41c4;
+    color:white;
+}
+
+.userNav{
+    border:solid;
+    border-color:transparent;
+}
+.logout a{
+    color: white;
+}
+.logout:hover{
+    background-color: rgba(255, 38, 0, 0.842);
+    color:#0d6efd;
+}
+
+.box-shadow{
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  background: white;
+  border-radius: 5px;
+}
+
+.fa-trash-alt:hover{
+    color: red;
+}
+.fa-user-edit{
+    color:black;
+}
+.fa-user-edit:hover{
+    color: #0d5dd6b2;
+}
+
+.fa-crown{
+    color:gold;
+    -webkit-text-stroke: 1px #000;
+    
+}
+
+.defaultCursor {cursor: default;}
+
+.fa-plus-square:hover{
+    color:#00da41c4;
+}
+.ola{
+    color:#0d5dd6b2;
+}
+
+.no-effect {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+  }
+  
+  .no-effect:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+  }
+  
+  .no-effect:active {
+    outline: none;
+    border: none;
+  }
+  
+  .no-effect:focus {
+    outline: 0;
+  }
+
+  .fa-sign-out-alt:hover{
+    color:red;
+  }
